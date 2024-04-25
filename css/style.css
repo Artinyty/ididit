@@ -196,6 +196,11 @@ body {
 .about__item-text {
   font-size: 11px;
 }
+.about__item-img1,
+.about__item-img3 {
+  max-width: 215px;
+  max-height: 245px;
+}
 
 .section__inner {
   display: grid;
@@ -218,6 +223,8 @@ body {
 
 .products__item-img {
   margin-bottom: 8px;
+  max-width: 215px;
+  max-height: 245px;
 }
 .products__item-price {
   font-family: Yeseva One, cursive;
@@ -280,12 +287,14 @@ body {
   font-family: Yeseva One, cursive;
   font-weight: 400;
 }
-
+.course__img {
+  max-height: 360px;
+}
 .course__title {
-  padding: 15px 38px 10px;
+  padding: 10px 20px 10px;
   left: 10px;
-  top: 45%;
-  font-size: 11px;
+  top: 43%;
+  font-size: 12px;
 }
 .course__time {
   padding: 7px 10px;
@@ -1072,6 +1081,9 @@ body {
   .certificates__slider {
     margin: 0 auto;
     width: 450px;
+  }
+  .acordeon__text-visible {
+    font-size: 12px;
   }
 }
 
