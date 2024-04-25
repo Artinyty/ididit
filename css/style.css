@@ -218,6 +218,8 @@ body {
 
 .products__item-img {
   margin-bottom: 8px;
+    max-width: 215px;
+    max-height: 245px;
 }
 .products__item-price {
   font-family: Yeseva One, cursive;
