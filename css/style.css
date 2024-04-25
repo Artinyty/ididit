@@ -242,6 +242,8 @@ body {
 .products__item-text {
   margin-bottom: 27px;
   font-size: 12px;
+    padding-bottom: 35px;
+    max-height: 50px;
 }
 
 .steps__list {
